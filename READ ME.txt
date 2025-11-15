@@ -1,0 +1,13 @@
+CURRENT VERSION: [1.1]
+DISCLAIMER: This is my first project ever made in python. Expect terrible coding decisions to be made. The next update will work on fixing these!
+
+License:
+This is a free project by the github user "Treysalbro37"!
+You may use it however you want. Just give credit to the creator first.
+
+Instructions:
+"say" after entering this, an argument section is pulled up. It should say "msg:" instead of "cmd:" If that is correct, you have entered the command without errors. Whatever put in the next command is what will be said in the output below.
+"reg" after entering this, it will make an argument saying "row:" This stands for read or write. Say "r" if you want to read and "w" if you want to write. Both will make the argument below saying "r#:" This is different for both. There are four registers and whatever number you put is what register you are reading or writing. If you are reading, then it will output what number the register holds. Writing will take you to a different argument labeled "int:" will appear. Whatever you put inside of "int:" is what the register will equal.
+"add" after entering this, it will make an argument saying "r#:" This is the first REGISTER you are adding. Whatever is in the selected register that you are adding will be added along with the second number. Which will be the argument pulled up. "r#:" This is the second register you are adding. The next argument pulled up is "loc:" which is the register that will now hold the result of the two.
+"sub" after entering this, it will work the same as the add command. Just with subtracting instead. "mul" means multiply and same story here along with "div" for division.
+"dta" after entering this, the argument "los" will pop up meaning load or store. Press "l" for load and "s" for store. After loading or storing, the argument "r#:" will appear. If you are loading, whatever register you put here (1 through 4) will be loaded into a data slot. (32 slots of data.) The argument "d#:" will let you enter a value of 1 to 32 corrisponding with the amount of data memory there is. Storing works in reverse with the selected data value being put into the register instead.
